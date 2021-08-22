@@ -52,7 +52,7 @@ namespace _10GridviewPractice
             //被點選那一列的index
             int pk_index= Convert.ToInt32(e.CommandArgument);
             //測試新增
-
+            //20210816
 
             Response.Write("<br /><font color=red>被點選的這一列，e.CommandArgument-- </font>" + pk_index.ToString());
         }
