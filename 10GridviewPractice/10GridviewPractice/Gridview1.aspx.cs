@@ -27,9 +27,8 @@ namespace _10GridviewPractice
             //註解：這一行程式碼，可以這樣解釋--
             //    使用者選取的這一行（GridView1.SelectedIndex），進入GridView的「編輯」模式（GridView1.EditIndex）。
 
-            //******************************
-            //  以下是錯誤程式
-            //GridView1.EditIndex = e.NewEditIndex;
+
+
         }
 
         protected void GridView1_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
