@@ -38,9 +38,7 @@ namespace _10GridviewPractice
 
             //測試用的
               GridView1.SelectedIndex = GridView1.SelectedIndex;
-            //註解：這一行程式碼，可以這樣解釋--
-            //   使用者選取的這一行（GridView1.SelectedIndex），進入GridView的「選取」模式（GridView1.SelectedIndex）。
-            //   也就是「光棒效果」。
+
         }
 
         protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
