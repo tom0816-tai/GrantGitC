@@ -28,7 +28,7 @@
                 </Columns>
                 <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
                 <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#A55129" Font-Bold="True"  />
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Feib_DevOpsConnectionString %>" SelectCommand="SELECT DISTINCT [Job_GUID], [fullname], [name], [Type] FROM [Jenkins_Job_Master] ORDER BY [Job_GUID]"></asp:SqlDataSource>
         </div>
