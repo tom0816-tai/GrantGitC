@@ -51,11 +51,7 @@ namespace _10GridviewPractice
 
             //被點選那一列的index
             int pk_index= Convert.ToInt32(e.CommandArgument);
-            //--下面這一列成是在某些頁數會出錯，例如第五頁。因為您點選第五頁，e.CommandArgument會是 5。
-            //-- 而這個 GridView每一頁只有五列（RowIndex為 0~4）所以會出錯。
-            //-- 進一步的說明，請看我的文章 -- http://www.dotblogs.com.tw/mis2000lab/archive/2013/06/20/rowcommand_commandargument_page_20130620.aspx
-            //使用者點選的那一列所對應的表格主索引鍵值
-            //Response.Write("被點選這一列的主索引鍵值--"+GridView1.DataKeys[pk_index].Value);
+
 
 
             Response.Write("<br /><font color=red>被點選的這一列，e.CommandArgument-- </font>" + pk_index.ToString());
